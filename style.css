@@ -1,0 +1,191 @@
+@font-face {
+  font-family: regular;
+  src: url(./fonts/Lalezar-Font/TTF/Lalezar-Regular.ttf);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: regular;
+  background-color: #C4B0FF;
+}
+.home .tabs{
+  background-color: #11009E;
+  margin: 0rem;
+}
+.home .tabs ul{
+  display: flex;
+  justify-content: start;
+  gap: 9rem;
+  flex: 0.5;
+  list-style: none;
+  padding: 3rem;
+}
+.home .tabs ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+.title{
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem;
+}
+.title img{
+  width: 900px;
+}
+.title h1{
+  margin: 2.8rem;
+}
+.home .button a{
+  text-decoration: none;
+  color: black;
+  background-color: #11009E;
+  font-size: 2rem;
+  border-radius: 10px;
+  padding: 5px 25px;
+  position: absolute;
+  top: 65%;
+  right: 12%;
+}
+.feature h1{
+  text-align: center;
+  margin-block: 5rem;
+  font-size: 3rem;
+}
+.feature .items{
+  background-color: #11009E;
+  display: flex;
+}
+.feature .items .items-first{
+  border: 1px solid black;
+  font-size: 1.3rem;
+  padding: 3rem;
+}
+.feature .items .items-first h3{
+  text-align: center;
+}
+.feature .items .items-first p{
+  text-align: center;
+}
+.feature .items .items-second{
+  border: 1px solid black;
+  font-size: 1.3rem;
+  padding: 3rem;
+}
+.feature .items .items-second h3{
+  text-align: center;
+}
+.feature .items .items-second p{
+  text-align: center;
+}
+.feature .items .items-third{
+  border: 1px solid black;
+  font-size: 1.3rem;
+  padding: 3rem;
+}
+.feature .items .items-third h3{
+  text-align: center;
+}
+.feature .items .items-third p{
+  text-align: center;
+}
+.about{
+  margin: 5rem;
+}
+.about h1{
+  text-align: right;
+  font-size: 3rem;
+  margin-block: 5rem;
+}
+.about p{
+  text-align: center;
+  font-size: 2rem;
+}
+.packages{
+  margin: 5rem;
+}
+.packages h1{
+  text-align: center;
+  font-size: 3rem;
+  margin-block: 5rem;
+}
+.packages .items{
+  display: flex;
+  text-align: center;
+  gap: 25px;
+}
+.packages .items .items-first{
+  border: 1px solid black;
+  border-radius: 10px;
+  flex: 1;
+  background-color: #4942E4;
+}
+.packages .items .items-first h3{
+  font-size: 2.5rem;
+  margin-block: 2.5rem;
+}
+.packages .items .items-first p{
+  font-size: 1.75rem;
+  margin-block: 2rem;
+}
+.packages .items .items-first h5{
+  font-size: 2rem;
+}
+.packages .items .items-first a{
+  text-decoration: none;
+  color: black;
+  background-color: #11009E;
+  padding: 1px 100px;
+  border-radius: 10px;
+}
+.packages .items .items-second{
+  border: 1px solid black;
+  border-radius: 10px;
+  flex: 1;
+  background-color: #4942E4;
+}
+.packages .items .items-second h3{
+  font-size: 2.5rem;
+  margin-block: 2.5rem;
+}
+.packages .items .items-second p{
+  font-size: 1.75rem;
+  margin-block: 2rem;
+}
+.packages .items .items-second h5{
+  font-size: 2rem;
+}
+.packages .items .items-second a{
+  text-decoration: none;
+  color: black;
+  background-color: #11009E;
+  padding: 1px 100px;
+  border-radius: 10px;
+}
+.packages .items .items-third{
+  border: 1px solid black;
+  border-radius: 10px;
+  flex: 1;
+  background-color: #4942E4;
+}
+.packages .items .items-third h3{
+  font-size: 2.5rem;
+  margin-block: 2.5rem;
+}
+.packages .items .items-third p{
+  font-size: 1.75rem;
+  margin-block: 2rem;
+}
+.packages .items .items-third h5{
+  font-size: 2rem;
+}
+.packages .items .items-third a{
+  text-decoration: none;
+  color: black;
+  background-color: #11009E;
+  padding: 1px 100px;
+  border-radius: 10px;
+}
